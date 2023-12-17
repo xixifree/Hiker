@@ -1,14 +1,16 @@
 {"urls":[
     {"name":"肥猫", "url":"http://肥猫.live"},
     {"name":"饭太硬", "url":"http://饭太硬.top/tv"},
-    {"name":"高天流云", "url":"https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"},
-    {"name":"荷城（跑马）", "url":"http://rihou.cc:88/荷城茶秀"},
-    {"name":"运输（广告）", "url":"https://weixine.net/ysc.json"},
+    {"name":"荷城（灯）", "url":"http://rihou.cc:88/荷城茶秀"},
+    {"name":"香雅情", "url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"},
     {"name":"菜妮丝", "url":"https://tvbox.cainisi.cf"},
-    {"name":"香雅情", "url":"https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json"},
-    {"name":"蜂蜜", "url":"http://蜂蜜.eu.org"},
-    {"name":"云星", "url":"http://itvbox.cc/tvbox/云星日记/1.m3u8"},
+    {"name":"高天", "url":"https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"},
     {"name":"猪猪", "url":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/tv.txt"},
+    {"name":"云星", "url":"http://itvbox.cc/tvbox/云星日记/1.m3u8"},
     {"name":"巧计", "url":"http://pandown.pro/tvbox/tvbox.json"},
-    {"name":"小米", "url":"http://xhww.fun:63/小米/DEMO.json"}
+    {"name":"小米", "url":"http://xhww.fun:63/小米/DEMO.json"},
+    {"name":"骚零", "url":"https://xhdwc.tk/0"},
+    {"name":"蜂蜜", "url":"http://蜂蜜.eu.org"},
+    {"name":"运输（广）", "url":"https://weixine.net/ysc.json"},
+    {"name":"高天XYQ", "url":"https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json"}
 ]}
