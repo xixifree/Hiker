@@ -225,14 +225,14 @@ let erdata = {
     "二级": function(surl) {//surl为详情页链接
         let html = request(surl, {timeout:8000});
         let dataid = pdfh(html, "#COMMENT&&data-ssid");
-        let 作者 = pdfh(html, '#detail&&.author&&Text');
-        let 分类 = pdfa(html, '#detail&&.type').map(data => pdfh(data, 'Text')).join("  ");
-        let 更新 = pdfh(html, '#js_chapter-reverse&&.update_time&&Text');
+        let 作者 = pdfh(html, '.comic-figure-box&&ul&&Text');
+        let 分类 = pdfa(html, '#detail&&.comic-tags').map(data => pdfh(data, 'Text')).join("  ");
+        let 更新 = pdfh(html, '.comic-update-status&&Text');
         let 简介 = pdfh(html, '#js_desc_content&&Text');
         let detail1 = "作者："+作者+"\n"+"分类："+分类;
         let detail2 = "时间："+更新;
-        let 图片 = pd(html, '#detail&&.thumbnail&&img&&data-src');
-        let 选集 = pdfa(html, '#js_chapters&&li').map((data) => {
+        let 图片 = pd(html, '#detail&&img&&data-src');
+        let 选集 = pdfa(html, '#js_chapter_list&&li').map((data) => {
             let 选集列表 = {};
             选集列表.title = pdfh(data, 'Text')
             选集列表.url = "https://m.kanman.com/api/getchapterinfov2?product_id=1&productname=kmh&platformname=wap&isWebp=1&quality=high&comic_id="+dataid+"&chapter_newid="+pdfh(data, 'a&&href').replace('.html', '').split('/')[2];
