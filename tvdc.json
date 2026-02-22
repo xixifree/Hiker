@@ -1,8 +1,10 @@
 {"urls":[
-    {"name":"OK影视", "url":"http://ok321.top/tv"},
+    {"name":"OK影视", "url":"https://ok321.top/tv"},
+    {"name":"OK影视2", "url":"http://ok213.top/ok"},
     {"name":"饭太硬", "url":"http://www.饭太硬.com/tv"},
+    {"name":"饭太硬2", "url":"http://www.饭太硬.net/tv"},
     {"name":"肥猫", "url":"http://肥猫.com"},
-    {"name":"王二小", "url":"http://tvbox.王二小放牛娃.top"},
+    {"name":"王二小", "url":"https://www.王二小放牛娃.top/"},
     {"name":"小而美", "url":"https://ghproxy.net/https://raw.githubusercontent.com/xixifree/xxbox/master/jsm.json"},
     {"name":"摸鱼儿", "url":"http://我不是.摸鱼儿.com"},
     {"name":"欧歌", "url":"https://欧歌.v.nxog.top/m/"},
